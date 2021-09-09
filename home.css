@@ -1,0 +1,227 @@
+@import url('https://kit.fontawesome.com/3977cfdb27.js');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+  margin-top: 10px;
+    height: 50px;
+    background: #ffb700;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 5px 0px 100px;
+}
+nav .logo{
+    font-size: 23px;
+    color: saddlebrown;
+    font-weight: 400;
+   
+   
+   
+    
+}
+
+nav ul{
+  margin-top: 10px;
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+  display: flex;
+  margin-top: 10px;
+    margin: 0 5px;
+}
+.left {
+  margin-right: 15px;
+}
+nav ul li  a{
+  display: flex;
+  margin-top: -10px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    padding: 8px 10px;
+    border-radius: 5px;
+
+}
+
+nav ul li  a:hover,
+nav ul li  a:active{
+    color: white;
+    background: orange;
+}
+nav .menu-btn i{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+nav .btn i {
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+}
+
+
+#click{
+    display: none;
+}
+@media (max-width:940px)
+
+
+{
+nav .menu-btn i{
+display: block;
+}
+
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background:#ffb700;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+    }  
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    nav ul li{
+        margin: 40px 0 ;
+
+    }
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+    }
+}
+  
+  img {
+    float: right;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    background-color:#ffb700;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    border-left-style: dotted;
+    
+  }
+
+  .column5{
+    float: left;
+    width: 50%;
+    background-color: #ffb700;
+    padding: 10px;
+    height: 300px;
+    
+  }
+
+  .column1 {
+    float: left;
+    width: 50%;
+    background-color: #ffb700;
+    padding: 10px;
+    height: 500px;
+    
+  }
+
+  .column2 {
+    float: left;
+    width: 50%;
+    background-color: #ffb700;
+    padding: 10px;
+    height: 500px;
+    
+  }
+
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column5 {
+      width: 100%;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+
+    }
+  }
+ 
+  
+  body {
+      background-image:0;
+      background-color: #ffb700;
+      background-size: 30000px 10000px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: 0;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: (255, 255, 255, 0.8);
+    border: 1px solid (143, 143, 143, 0.8);
+    padding: 15px;
+    font-size: 13px;
+    text-align: Left;
+  }
+
+  .img1 {
+      width: 85%;
+    height: auto;
+  }
+  .btnS {
+    background-color:#00001a; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s; 
+    float: right;
+  }
+  
+  
+  
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
